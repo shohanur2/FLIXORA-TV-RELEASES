@@ -5,7 +5,7 @@ This repository is the **only update source for FLIXORA Android TV / Google TV**
 - Mobile FLIXORA updates must never be published here.
 - TV releases use tags in the format `tv-vMAJOR.MINOR.PATCH` (example: `tv-v1.0.16`).
 - Every release must include one universal TV APK named `FLIXORA-TV-<version>.apk`.
-- The TV app checks only the latest release in this repository and accepts only APK assets whose filename starts with `FLIXORA-TV-`.
+- The TV app checks only the latest release in this repository and accepts only the exact version-matched asset `FLIXORA-TV-<version>.apk`.
 - The app verifies the APK package name, version name and a strictly higher version code before opening Android's installer.
 
 ## Publishing
